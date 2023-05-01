@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!--Meta-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <title>FREDDY - BIENESTAR VEHICULAR</title>
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,700&display=swap" rel="stylesheet">
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/1534a43325.js" crossorigin="anonymous"></script>
+    <!--Custom Styles-->
+    <link rel="preload" href="scss/normalize.css">
+    <link rel="preload" href="scss/styles.css">
+    <link rel="stylesheet" href="scss/styles.css" type="text/css">
+    <link rel="stylesheet" href="scss/normalize.css" type="text/css">
+</head>
+<body>
+    <header class="header">
+        <div class="container header-content">
+            <a href="#"><img class="header-content__img" src="img/logo.png" alt="Freddy bienestar vehicular logo"></a>
+            <h1 class="header-content__title">Bienestar Vehicular</h1>
+        </div>
+    </header>
+    <nav class="nav">
+        <div class="container navbar">
+            <a class="navbar__link" href="#conocenos">Conocenos</a>
+            <a class="navbar__link" href="#catalogo">Catalogo</a>
+            <a class="navbar__link" href="#contacto">Contacto</a>
+        </div>
+    </nav>
+    <main class="main">
+        <div class="container">
+            <section class="about" id="conocenos">
+                <h2 class="about__title">Sobre nosotros</h2>
+                <p class="about__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum inventore quos ipsum explicabo, voluptate nesciunt vero ipsa commodi nulla corporis illum optio quae facilis error! Facere, tempore, quae explicabo eveniet est ipsum adipisci recusandae dicta dolor repellendus nam iure eum placeat illo ad possimus quos consequuntur error quaerat neque provident. Repellendus vitae autem quos, illum earum temporibus exercitationem cupiditate quasi. Libero aperiam at suscipit sit incidunt veritatis deserunt ducimus vero, soluta quis, eos iure velit nihil necessitatibus voluptatibus animi! Quidem impedit soluta obcaecati, saepe, provident</p>
+                <img class="about__img" src="img/localafuera.jpg" alt="local">
+            </section>
+            <section class="catalogo" id="catalogo">
+                <h2 class="catalogo__title">Nuestros porductos</h2>
+                <div class="catalogo__items">
+                    <div class="item">
+                        <div class="item__img item__img--interior"></div>
+                        <h3 class="item__text">Interior</h3>
+                    </div> <!--vp-catalogo__box-->
+                    <div class="item item--combos">
+                        <div class="item__img item__img--combos"></div>
+                        <h3 class="item__text">Combos</h3>
+                    </div> <!--vp-catalogo__box-->
+                    <div class="item">
+                        <div class="item__img item__img--exterior"></div>
+                        <h3 class="item__text">Exterior</h3>
+                    </div> <!--vp-catalogo__box-->
+                </div>
+                <a href="catalogo.html" class="catalogo__btn">Ir al catalogo</a>
+            </section>
+            <section class="contact" id="contacto">
+                <h2 class="contact__title">Contactanos</h2>
+                <div class="contact__redes">
+                    <div class="red">                        
+                        <a href="https://api.whatsapp.com/send?phone=5492945505775" target="_blank"><i class="fa-brands fa-whatsapp red__item"></i></a>
+                    </div>
+                    <div class="red">                        
+                        <a href="https://www.facebook.com/people/Freddy-Bienestar-Vehicular/100088580704168/" target="_blank"><i class="fa-brands fa-facebook red__item"></i></a>
+                    </div>
+                    <div class="red">
+                        <a href="https://www.instagram.com/freddybienestar/" target="_blank"><i class="fa-brands fa-instagram red__item"></i></a>
+                    </div>
+                    <div class="red">                        
+                        <a href="tel:2945505775" target="_blank"><i class="fa-sharp fa-solid fa-phone red__item"></i></a>
+                    </div>
+                </div>
+            </section>
+            <section class="ubicacion">
+                <div class="ubicacion__text">
+                    <h2 class="ubicacion__text--title">Encontranos en Avenida Peron 580</h2>
+                    <p class="ubicacion__text--horarios"> De lunes a sabados <br> de 10:00 a 14:30 <br> de 16:30 a 20:30</p>
+                </div>
+
+                <div class="ubicacion__map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1737.6682943210703!2d-71.30948427140557!3d-42.90664480574175!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x961dad6e2cf8db2b%3A0xf2bdbd573a3639be!2sFREDDY%20Bienestar%20Vehicular!5e0!3m2!1ses-419!2sar!4v1682977615850!5m2!1ses-419!2sar"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <h4 class="footer__text"> Copyrigth 2023 - Luca Galeazzi</h4>
+    </footer>
+</body>
+</html>
