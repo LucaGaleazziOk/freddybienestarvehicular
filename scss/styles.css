@@ -452,6 +452,15 @@ iframe {
   justify-items: center;
 }
 
+@media (max-width: 768px) {
+  .seccion__items {
+    padding-top: 3rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5rem;
+    justify-items: center;
+  }
+}
 .product {
   background-color: var(--naranja);
   width: 18rem;
