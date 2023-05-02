@@ -127,7 +127,7 @@ a {
 
 main {
   padding: 5rem 0;
-  background-image: url(/img/localafuera_desenfocado.jpg);
+  background-image: url(../img/localafuera_desenfocado.jpg);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -235,15 +235,15 @@ section {
 }
 
 .item__img--interior {
-  background-image: url(/img/interior.jpg);
+  background-image: url(../img/interior.jpg);
 }
 
 .item__img--combos {
-  background-image: url(/img/combos.jpg);
+  background-image: url(../img/combos.jpg);
 }
 
 .item__img--exterior {
-  background-image: url(/img/exterior.jpg);
+  background-image: url(../img/exterior.jpg);
 }
 
 .item__text {
@@ -464,7 +464,7 @@ iframe {
 }
 
 .imagen {
-  background-image: url(/img/interior.jpg);
+  background-image: url(../img/interior.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -477,11 +477,11 @@ iframe {
 }
 
 .imagen--exterior {
-  background-image: url(/img/exterior.jpg);
+  background-image: url(../img/exterior.jpg);
 }
 
 .imagen--combos {
-  background-image: url(/img/combos.jpg);
+  background-image: url(../img/combos.jpg);
 }
 
 .product__text {
